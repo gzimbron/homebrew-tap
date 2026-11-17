@@ -1,6 +1,8 @@
+# Homebrew cask for Manita. Copy to Casks/manita.rb in the github.com/gzimbron/homebrew-tap repo.
+# Users install with: brew install --cask gzimbron/tap/manita
 cask "manita" do
-  version "1.0.0"
-  sha256 "fa740be46fe37228b5c7b2fa264ae562b0a91279ac56fa4896153fce63b997ee"
+  version "1.1.0" # x-release-please-version
+  sha256 "e109061f4af0ad173a86eebbe0ce54150409ef8a66ed854934e526bfaf90a915"
 
   url "https://github.com/gzimbron/manita/releases/download/v#{version}/Manita-#{version}.zip"
   name "Manita"
